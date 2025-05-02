@@ -13,7 +13,7 @@ Deux notebooks Jupyter : un pour le traçage 3D des cerveaux, et un pour le pré
 Un fichier requirements.txt.
 <h3> <strong> Méthodes & Résultats:</strong> </h3>
 L’examen des données a été le point de départ. Ce faisant, j’ai constaté que le positionnement des électrodes variait selon les sujets. L’étude ayant été réalisée dans le cadre d’un monitorage épileptique préopératoire, l’emplacement des électrodes dépendait de la source approximative de l’épilepsie. Les cerveaux 3D avec les électrodes de chaque individu ont été représentés. Seules les électrodes présentes dans les gyrus précentraux et postcentraux ont été sélectionnées, car ces régions sont impliquées dans l’exécution et l’imagination du mouvement.
-<img src="https://github.com/brainhack-school2024/abdo_project/blob/iss1/images/brains.png?raw=true">
+<img src="https://github.com/janeabdo/SCI1402/blob/main/cerveaux.png"> 
 Cliquez <a href="https://brainhack-school2024.github.io/abdo_project/images/3dbrain_electrodes.html">ici</a> pour la version interactive : 
 Les performances du classificateur sur chaque individu ont ensuite été tracées.
 
@@ -24,11 +24,11 @@ Les étapes suivantes visaient à améliorer la classification. Trois classifica
 
 Les trois classificateurs ont été comparés dans les conditions de mouvement réelles et imaginaires.
 <br> Pour le mouvement réel :
-<img src="https://github.com/brainhack-school2024/abdo_project/blob/iss1/images/classifier_actual_movement.png?raw=true" >
-Cliquez <a href="https://brainhack-school2024.github.io/abdo_project/images/Actual_Movement_Condition.html">ici</a> pour la version interactive.
+<img src="https://github.com/janeabdo/SCI1402/blob/main/mouvement_reel_classifie.png" >
+Cliquez <a href="https://github.com/janeabdo/SCI1402/blob/main/Mouvement_Reel.html">ici</a> pour la version interactive.
 <br> Pour le mouvement imaginé:
-<img src="https://github.com/brainhack-school2024/abdo_project/blob/iss1/images/classifier_imagined_movement.png?raw=true" >
-Cliquez <a href="https://brainhack-school2024.github.io/abdo_project/images/Imagined_Movement_Condition.html">ici</a> pour la version interactive.
+<img src="https://github.com/janeabdo/SCI1402/blob/main/mouvement_imagine_classifie.png" >
+Cliquez <a href="https://github.com/janeabdo/SCI1402/blob/main/Mouvement_Imagine.html">ici</a> pour la version interactive.
 <h3> <strong> Conclusion :</strong> </h3>
 Contrairement à ce que je pensais, il semble qu’aucun classificateur ne soit optimal pour tous ; les données de chaque individu nécessitent une approche personnalisée pour une performance optimale.
 <br>Heureusement, chaque individu disposait d’au moins un classificateur avec une précision supérieure à 50 %.
